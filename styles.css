@@ -1,0 +1,97 @@
+h1, h2, p { /* type selector */
+  text-align: center;
+}
+
+body {
+ /* background-color: burlywood; /* change color of background */ 
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: Impact, serif; /* serif is a font-back font, use when first font is not found*/
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  height: 3px; /* change height of line divider */
+  background-color: brown; /* change color of background */
+  border-color: brown;
+  /* border-width default 1px. 1px(top)+1px(bottom)+3px(height)=5px */
+}
+
+.established {
+  font-style: italic;
+}
+
+.menu { /*Class selector */
+  /* use style selectors to style element*/
+  width: 80%; /* 80% of div's parent (the body element) * or in pixels(px)*/  
+  background-color: burlywood;
+  margin-left: auto; /* margin-left and margin-right to center the div horizontally */
+  margin-right: auto; 
+  /* padding-left: 20px; /*space between the content and the sides 
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 20px;
+  max-width: 500px; /* to prevent the menu growing too large */
+}
+
+.flavor, .dessert { /* Class selector */
+  text-align: left;
+  width: 75%; /* depending on numbers of characters */
+}
+
+.price { /* Class selector */
+  text-align: right;
+  width: 25%;
+}
+
+.item p { /* Class-element selector */
+  display: inline-block; /*at te same line */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+a {
+  color: black; /*default color of text in anchor when not visited  */
+}
+
+a:visited {
+  color: grey; /*default color of text in anchor when visited */
+}
+
+a:hover {
+  color: brown; /*when mouse hover over the text */
+}
+
+a:active {
+  color: white; /*when being clicked on */
+}
+
+.address {
+  margin-bottom:5px;
+}
+
+img {
+  display: block; /*display imagine like heading element */
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: -25px; /*make icon nearer heading */
+}
